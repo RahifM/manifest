@@ -265,7 +265,6 @@
   <project groups="p-fs-release,pdk" name="platform/external/nanopb-c" path="external/nanopb-c" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/naver-fonts" path="external/naver-fonts" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/netcat" path="external/netcat" revision="ks-aosp.lnx.1.0.r5-rel"/>
-  <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/netperf" path="external/netperf" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/neven" path="external/neven" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/nfacct" path="external/nfacct" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="platform/external/nist-pkits" path="external/nist-pkits" revision="ks-aosp.lnx.1.0.r5-rel"/>
@@ -455,7 +454,7 @@
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="display.lnx.3.2.r7-rel"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="location.lnx.3.9.r10-rel"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="video-userspace.lnx.2.9.1.r7-rel"/>
-  <project name="platform/hardware/qcom/thermal" path="hardware/qcom/thermal" revision="qvr.lnx.3.0.r24-rel"/>
+  <project name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal" revision="qvr.lnx.3.0.r24-rel"/>
   <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr" revision="qvr.lnx.3.0.r24-rel"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="wlan-aosp.lnx.4.0.r9-rel"/>
   <project groups="p-fs-release,pdk" name="platform/hardware/ril" path="hardware/ril" revision="ks-aosp.lnx.1.0.r5-rel"/>
@@ -668,6 +667,7 @@
   <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/audio" revision="av-aosp-qc.lnx.5.0.r9-rel"/>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" revision="bt-qc.lnx.4.0.r10-rel"/>
   <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" revision="bt.lnx.4.0.r11-rel"/>
+  <project name="platform/vendor/qcom-opensource/core-modules" path="vendor/qcom/opensource/core-modules" revision="qcom-devices.lnx.4.0.r10-rel"/>
   <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="qcom-devices.lnx.4.0.r10-rel"/>
   <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" revision="qcom-devices.lnx.4.0.r10-rel"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="data.lnx.4.0.r10-rel"/>
@@ -698,6 +698,7 @@
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996" revision="qcom-devices.lnx.4.0.r10-rel"/>
   <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" revision="qcom-devices.lnx.4.0.r10-rel"/>
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="qcom-devices.lnx.4.0.r10-rel"/>
+  <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="wlan-service.lnx.4.0.r10-rel"/>
   <project groups="p-fs-release,pdk" name="toolchain/binutils" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="p-fs-release,pdk" name="toolchain/pgo-profiles" revision="ks-aosp.lnx.1.0.r5-rel"/>
 </manifest>
