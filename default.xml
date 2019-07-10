@@ -83,7 +83,7 @@
   <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/external/autotest" path="external/autotest" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/avb" path="external/avb" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/bart" path="external/bart" revision="ks-aosp.lnx.1.0.r5-rel"/>
-  <project groups="p-fs-release,pdk" name="platform/external/blktrace" path="external/blktrace" revision="ks-aosp.lnx.1.0.r5-rel"/>
+  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/blktrace" path="external/blktrace" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/boringssl" path="external/boringssl" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/bouncycastle" path="external/bouncycastle" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/brotli" path="external/brotli" revision="ks-aosp.lnx.1.0.r5-rel"/>
@@ -276,7 +276,6 @@
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/oj-libjdwp" path="external/oj-libjdwp" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/okhttp" path="external/okhttp" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/one-true-awk" path="external/one-true-awk" revision="ks-aosp.lnx.1.0.r5-rel"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/external/opencv" path="external/opencv" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/parameter-framework" path="external/parameter-framework" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/pcre" path="external/pcre" revision="ks-aosp.lnx.1.0.r5-rel"/>
@@ -381,7 +380,7 @@
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/vixl" path="external/vixl" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/vogar" path="external/vogar" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/volley" path="external/volley" revision="ks-aosp.lnx.1.0.r5-rel"/>
-  <project groups="p-fs-release,pdk" name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" revision="ks-aosp.lnx.1.0.r5-rel"/>
+  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/walt" path="external/walt" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/wayland" path="external/wayland" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" revision="ks-aosp.lnx.1.0.r5-rel"/>
@@ -393,7 +392,7 @@
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/x264" path="external/x264" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/xmlrpcpp" path="external/xmlrpcpp" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/xmlwriter" path="external/xmlwriter" revision="ks-aosp.lnx.1.0.r5-rel"/>
-  <project groups="p-fs-release,pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="ks-aosp.lnx.1.0.r5-rel"/>
+  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/xz-embedded" path="external/xz-embedded" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/zlib" path="external/zlib" revision="ks-aosp.lnx.1.0.r5-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/zopfli" path="external/zopfli" revision="ks-aosp.lnx.1.0.r5-rel"/>
@@ -686,6 +685,12 @@
   <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="wlan-driver.lnx.1.0.r30-rel"/>
   <project name="platform/vendor/qcom-opensource/wlan/qcacld-2.0" path="vendor/qcom/opensource/wlan/qcacld-2.0" revision="wlan-cld2.driver.lnx.1.0.r26-rel"/>
   <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" revision="wlan-service.lnx.4.0.r10-rel"/>
+  <project name="platform/vendor/qcom/apq8098_latv" path="device/qcom/apq8098_latv" revision="qcom-devices.lnx.4.0.r10-rel"/>
+  <project name="platform/vendor/qcom/cobalt" path="device/qcom/msm8998" revision="qcom-devices.lnx.4.0.r10-rel"/>
+  <project name="platform/vendor/qcom/falcon_32" path="device/qcom/sdm660_32" revision="qcom-devices.lnx.4.0.r10-rel"/>
+  <project name="platform/vendor/qcom/falcon_64" path="device/qcom/sdm660_64" revision="qcom-devices.lnx.4.0.r10-rel"/>
+  <project name="platform/vendor/qcom/ferrum" path="device/qcom/msm8909" revision="qcom-devices.lnx.4.0.r10-rel"/>
+  <project name="platform/vendor/qcom/msm8909go" path="device/qcom/msm8909go" revision="qcom-devices.lnx.4.0.r10-rel"/>
   <project name="platform/vendor/qcom/msm8937_32go" path="device/qcom/msm8937_32go" revision="qcom-devices.lnx.4.0.r10-rel"/>
   <project name="platform/vendor/qcom/thorium_32" path="device/qcom/msm8937_32" revision="qcom-devices.lnx.4.0.r10-rel"/>
   <project name="platform/vendor/qcom/thorium_64" path="device/qcom/msm8937_64" revision="qcom-devices.lnx.4.0.r10-rel"/>
